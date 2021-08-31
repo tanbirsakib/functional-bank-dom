@@ -45,6 +45,8 @@ document
     if(withdrawAmmount > 0 && withdrawAmmount < currentTotalBalance){
         totalBalance("withdraw-total", withdrawAmmount);
         finalBalance("withdraw-button", withdrawAmmount);
+    } else{
+        console.log('enter amount with in your balance range');
     }
    
   });
